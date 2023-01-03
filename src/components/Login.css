@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+}
+.loginform{
+    border: solid black 3px;
+    border-radius: 20px;
+    background-color:aliceblue;
+    position: absolute;
+    margin:200px 30%;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+}
+.loginform input,label{
+    margin-top: 10px;
+}
+.loginform button{
+    margin-top: 30px;
+}
+@media screen and (max-width: 990px) {
+    .loginform{
+        border: solid black 3px;
+        border-radius: 20px;
+        background-color:aliceblue;
+        position: absolute;
+        margin:100px 20px;
+        font-size: 20px;
+        padding: 10px;
+        width: 90%;
+    }
+  }

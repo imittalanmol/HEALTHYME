@@ -1,0 +1,130 @@
+.service-grid {
+    background-image: linear-gradient(to right, #cae2f8, rgba(208, 205, 238, 0.822));
+}
+    .service-title h4 {
+    position: relative;
+    font-family: Oswald;
+    font-size: 60px;
+    display: inline-block;
+}
+.row{
+    padding: 0px !important;
+}
+.service-wrap{
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.092);
+}
+.service-wrap:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.404);
+}
+.service-icon {
+    position: relative;
+}
+.about-info-text h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+}
+.about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+      position: relative;
+}
+.about-content p {
+    margin-bottom: 0;
+}
+.about-info-text a {
+    margin-bottom: 20px;
+      position: relative;
+}
+.service-icon i {
+    font-size: 40px;
+    color: darkblue;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+      position: relative;
+}
+
+.service-wrap p{
+      position: relative;
+}
+
+.amb:hover {
+    background-image: url(./imagesss/amb2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+.nrs:hover {
+    background-image: url(./imagesss/nrs3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+.em:hover {
+    background-image: url(./imagesss/amb1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+.bdt:hover {
+    background-image: url(./imagesss/bdt.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+.xr:hover {
+    background-image: url(./imagesss/xr.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+.hbd:hover {
+    background-image: url(./imagesss/hbd.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+.service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+}
+
+.service-wrap:hover h4,.service-wrap:hover p{
+    color: #fff;
+}
+.service-wrap h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+}
+.service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
+
+}
+.bd{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
